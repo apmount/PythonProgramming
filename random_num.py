@@ -38,10 +38,13 @@ while RunAgain:
                 else:
                     print("Aim lower...")
 
-
         except:
-           print("Please enter a number between 1 and 100")
-
+            if i!= 10:
+               print("Please enter a number between 1 and 100")
+            else:
+                print("You lost!"
+                break
+                
     select: str = input("Wanna try again? (Y/N): " )
     if select == 'Y' or select == 'y':
         continue
