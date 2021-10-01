@@ -42,7 +42,7 @@ while RunAgain:
             if i!= 10:
                print("Please enter a number between 1 and 100")
             else:
-                print("You lost!"
+                print("You lost!")
                 break
                 
     select: str = input("Wanna try again? (Y/N): " )
