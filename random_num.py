@@ -11,7 +11,7 @@ score = []
 while RunAgain:
 
     rnum = random.randint(1, 100)
-    print(rnum)
+#    print(rnum)
     for i in range(1, 11):
 
         try:
